@@ -1,0 +1,21 @@
+@media screen and (max-width:600px) {
+    body .w3-top {
+        position: absolute;
+    }
+
+    body .w3-top .w3-right {
+        display: none;
+    }
+    body .w3-content .w3-row {
+        display: grid;
+    }
+    body .w3-content .w3-row .w3-col {
+       box-sizing: unset;
+       margin: 0 auto;
+       width: 80%;   
+    }
+    body .w3-content .w3-padding-large .w3-opacity-min {
+       width: 0px;
+    }
+
+}
